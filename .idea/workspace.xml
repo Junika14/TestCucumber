@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38e4ddb1-20f0-4def-93c4-a1b2a2756885" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="38e4ddb1-20f0-4def-93c4-a1b2a2756885" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,27 +48,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Cucumber Java.Feature: login.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Login using invalid email and password.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Login using valid email and password.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Update logo using image &lt; = 1MB.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build TaskCucumber.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.RunTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/SDI/TaskCucumber/src/test/java/stepdef&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/SDI/TaskCucumber/src/main/java/org/example/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cucumber Java.Feature: login.executor": "Run",
+    "Cucumber Java.Scenario: Login using invalid email and password.executor": "Run",
+    "Cucumber Java.Scenario: Login using valid email and password.executor": "Run",
+    "Cucumber Java.Scenario: Update logo using image < = 1MB.executor": "Run",
+    "Gradle.Build TaskCucumber.executor": "Run",
+    "Gradle.RunTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/TaskCucumber",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/SDI/TaskCucumber/src/main/java/org/example/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Cucumber Java.Scenario: Update logo using image &lt; = 1MB">
     <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
@@ -209,6 +207,7 @@
       <workItem from="1726023914794" duration="14098000" />
       <workItem from="1726192298729" duration="2068000" />
       <workItem from="1726195014245" duration="89000" />
+      <workItem from="1726195156454" duration="316000" />
     </task>
     <servers />
   </component>
