@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38e4ddb1-20f0-4def-93c4-a1b2a2756885" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/basetest/FoundationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basetest/FoundationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/BerandaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/BerandaPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/PengaturanPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/PengaturanPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdef/PengaturanStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdef/PengaturanStepDef.java" afterDir="false" />
-    </list>
+    <list default="true" id="38e4ddb1-20f0-4def-93c4-a1b2a2756885" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,28 +48,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Cucumber Java.Feature: login.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Login using invalid email and password.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Login using valid email and password.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Update logo using image &lt; = 1MB.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build TaskCucumber.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.RunTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/TaskCucumber&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/SDI/TaskCucumber/src/main/java/org/example/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cucumber Java.Feature: login.executor": "Run",
+    "Cucumber Java.Scenario: Login using invalid email and password.executor": "Run",
+    "Cucumber Java.Scenario: Login using valid email and password.executor": "Run",
+    "Cucumber Java.Scenario: Update logo using image < = 1MB.executor": "Run",
+    "Gradle.Build TaskCucumber.executor": "Run",
+    "Gradle.RunTest.executor": "Run",
+    "Gradle.TaskCucumber [:testSelenium.main()].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/TaskCucumber",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/SDI/TaskCucumber/src/main/java/org/example/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Update logo using image &lt; = 1MB">
+}]]></component>
+  <component name="RunManager" selected="Application.testSelenium">
+    <configuration name="testSelenium" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testSelenium" />
+      <module name="TaskCucumber.test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/login.feature" />
@@ -155,37 +157,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;basetest.RunTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.testSelenium" />
         <item itemvalue="Cucumber Java.Scenario: Update logo using image &lt; = 1MB" />
         <item itemvalue="Cucumber Java.Scenario: Login using invalid email and password" />
         <item itemvalue="Cucumber Java.Scenario: Login using valid email and password" />
         <item itemvalue="Cucumber Java.Feature: login" />
-        <item itemvalue="Gradle.RunTest" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +192,7 @@
       <workItem from="1726192298729" duration="2068000" />
       <workItem from="1726195014245" duration="89000" />
       <workItem from="1726195156454" duration="2072000" />
-      <workItem from="1726542788705" duration="4814000" />
+      <workItem from="1726542788705" duration="5399000" />
     </task>
     <servers />
   </component>
