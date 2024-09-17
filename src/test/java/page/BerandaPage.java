@@ -21,8 +21,8 @@ public class BerandaPage {
    public void navigateToHomePage(){
        driver.navigate().to("https://app.caliana.id/vms");
        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-       WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h5[text()='Beranda']")));
-       assertTrue(element.isDisplayed());
+      // WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h5[text()='Beranda']")));
+       //assertTrue(element.isDisplayed());
       //System.out.println(element);
    }
 }

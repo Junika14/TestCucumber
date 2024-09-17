@@ -47,16 +47,17 @@ public class PengaturanStepDef extends FoundationTest {
 
     @When("user click Simpan button")
     public void userClickSimpanButton() {
-        try {
-            pengaturanPage.simpanFileMaks1MB();
-        }catch (IOException e){
-            e.printStackTrace();
-        }
-
+        pengaturanPage.simpanFileMaks1MB();
     }
 
     @Then("user see confirmation pop up")
     public void userSeeConfirmationPopUp() {
+        try{
+            pengaturanPage.confimationPopUp();
+
+        }catch (IOException e){
+            e.printStackTrace();
+        }
     }
 
 
