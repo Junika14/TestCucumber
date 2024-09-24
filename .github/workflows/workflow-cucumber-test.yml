@@ -29,6 +29,13 @@ jobs:
   # execute cucumber test
     - name: Execute ui-test
       run: ./gradlew cucumber
+  # Install dependencies
+    - name: Install dependencies
+      run: ./gradlew build -x test
+
+    # Run API Tests
+    - name: Run API Tests
+      run: ./gradlew test --tests 'java.test.apiTest'
 
   
           
