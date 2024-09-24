@@ -31,4 +31,4 @@ jobs:
 
     # Run API Tests
     - name: Run API Tests
-      run: ./gradlew test --tests 'java.test.apiTest'
+      run: ./gradlew test --tests 'apiTest.ApiTest'
