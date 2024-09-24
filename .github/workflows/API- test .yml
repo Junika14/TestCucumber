@@ -20,14 +20,6 @@ jobs:
     #install browser
     - name: Setup Chrome
       uses: browser-actions/setup-chrome@v1.7.2
-
-    #setup docker
-    - name: Set up Docker
-      uses: docker/setup-buildx-action@v2
-
-    - name: Build Docker Image
-      run: |
-        docker build -t my-image:latest .
       
     # setup gradlew
     - name: Setup Gradlew
