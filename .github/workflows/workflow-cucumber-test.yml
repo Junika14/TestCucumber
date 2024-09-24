@@ -20,14 +20,9 @@ jobs:
       with:
         java-version: '17'
         distribution: 'temurin'
-
-    - name: Build with Gradle Wrapper
-      run: ./gradlew build
-      
     #install browser
     - name: Install Chrome
       uses: logikal-io/install-chrome@v1.0.1
-
     # setup gradlew
     - name: Setup Gradlew
       run: chmod +x gradlew
