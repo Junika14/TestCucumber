@@ -21,8 +21,8 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
     #install browser
-    - name: Install Chrome
-      uses: logikal-io/install-chrome@v1.0.1
+    - name: Setup Chrome
+      uses: browser-actions/setup-chrome@v1.7.2
     # setup gradlew
     - name: Setup Gradlew
       run: chmod +x gradlew
